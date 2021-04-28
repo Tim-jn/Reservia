@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css"/>
@@ -12,14 +12,16 @@
 	<body>
 		<div class="contenu">
 			<header class="header">
-				<img class="logo" src="P2/images/logo/Reservia.svg" alt="Logo Reservia" />
+				<div class="logo">
+					<img src="P2/images/logo/Reservia.svg" alt="Logo Reservia" />
+				</div>
 				<div class="navtop_all">		
 					<nav class="navtop_button">
 						<a class="navtop" href="#ancre1">Hébergements</a>
 						<a class="navtop" href="#ancre2">Activités</a>
 					</nav>
-						<a class="nav_register" href="#">S'inscrire</a>
 				</div>
+				<a class="nav_register" href="#">S'inscrire</a>
 			</header>
 			<section class="header2">
 			<div class ="text_under_head">
@@ -31,13 +33,15 @@
 					<i class="fas fa-map-marker-alt"></i>
 				</span>
 				<input class="search_field" type ="search" id="Recherche" placeholder="Marseille, France">
-				<button class="search_button">Rechercher</button>
+				<button class="search_button"> 
+					<span class="search_button_text">Rechercher</span>
+					<i class="fas fa-search"></i>
+				</button>
 			</form>
 			<div id="filters_bloc">
 				<h2>Filtres</h2>
-				
+				<div class="fba">
 					<div class="filters_button_all">
-						
 						<div class="filters_button">
 							<i class="fas fa-money-bill-wave"></i>
 						</div>
@@ -60,7 +64,8 @@
 							<i class="fas fa-dog"></i>
 						</div>		
 							<span class="filters_text">Animaux autorisés</span>
-					</div>		
+					</div>	
+				</div>	
 			</div>
 			<div class="text_info">
 				<div class="logo_text_info">

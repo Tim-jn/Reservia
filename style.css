@@ -22,17 +22,12 @@ a, a:link {
     justify-content: space-between;
     align-items: center;
     padding-top: 0.2em;
-}
-
-.logo {
+    margin-right: 3.4em;
     margin-left: 3.4em;
 }
 
 .navtop_all {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 3.4em;
+    margin-left: auto;
 }
 
 .navtop_button a:hover {
@@ -104,7 +99,6 @@ h1 {
     cursor: pointer;
 }
 
-
 /* Filters bloc */
 
 #filters_bloc {
@@ -116,6 +110,10 @@ h1 {
 #filters_bloc h2 {
     padding-right: 1.5em;
     font-size: 1.3em;
+}
+
+.fba {
+    display: flex;
 }
 
 .filters_button_all :hover {
@@ -167,6 +165,8 @@ h1 {
     font-size: 0.8em;
     width: 2em;
     height: 2em;
+    min-width: 2em;
+    min-height: 2em;
     border-radius: 100%;
     margin-right: 0.9em;
 }
@@ -269,11 +269,12 @@ h1 {
     background-color: #f2f2f2;
     border-radius: 30px/30px;
     padding: 0em 2em 2em 2em;
+    border-radius: 0;
 }
 
 .populaires h2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .conteneur_text_aside p {
@@ -450,4 +451,175 @@ footer {
     width: 30%;
     line-height: 2em;
     padding: 2em 2em;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*media queries*/
+
+/* Mobile */
+@media all and (max-width: 375px) {
+
+    /* header */
+
+    .contenu {
+     
+    }
+
+    .header {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navtop {
+        padding: 1em 1em 1em 1em;
+        
+    }
+
+    .navtop_all {
+        display: flex;
+        order: 3;
+        
+    }
+
+    .navtop_button :hover {
+        color: #106ffc;
+        border-bottom: 3px #106ffc solid;
+        border-top: 0px white solid;
+    }
+
+    .navtop_all {
+
+    }
+
+    /* header */
+    /*-----------------------------------------------------------------------------------------------------------------------------*/
+    /* section head */
+
+    .header2 {
+        margin-left: 1.25em;
+        margin-right: 1.25em;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .search_bar {
+    
+    }
+
+    .search_field {
+        width: 100%;
+    }
+
+    .search_button_text {
+        display: none;
+    }
+
+    /* Filters bloc */
+
+    #filters_bloc {
+        display: flex;
+        flex-direction: column;   
+        align-items: flex-start;
+    }
+
+    #filters_bloc h2 {
+        margin-bottom: 1em;
+        font-size: 1.1em;
+    }
+
+    .fba {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .filters_button_all {
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+
+    .filters_text {
+        font-size: 1em;
+    }
+
+    .filters_button {
+        font-size: 1em;
+    }
+    /* text info*/ 
+
+    .text_info {
+        margin-top: 1em;
+    }
+
+    /* section head */
+    /*------------------------------------------------------------------------------------------------------------------------------*/
+    /* section hebergements */
+
+    .central_section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .populaires {
+       padding: 0em 1.25em 1.25em 1.25em;
+    }
+
+    .hebergements {
+        background-color: white;
+        height: 100%;
+        width: 335px;
+    }
+
+    .conteneur {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteneur_img {
+        width: 300px;
+        height: 200px;
+        padding-left: 0;
+    }
+
+    .conteneur_img_aside {
+        width: 325px;
+        height: 145px;
+    }
+
+    /* section hebergements */
+    /*------------------------------------------------------------------------------------------------------------------------------*/
+    /* section activités */
+
+    .conteneur_wo_h1 {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* section activités */
+    /*------------------------------------------------------------------------------------------------------------------------------*/
+    /* footer */
+
+    .footer_all {
+        flex-direction: column;
+    }
+}
+
+
+/* Tablet */
+@media all and (min-width: 376px) {
+    .search_button i {
+        display: none;
+    }
+}
+
+/* Desktop */
+@media all and (min-width: 991px) {
+    .search_button i {
+        display: none;
+    }
 }
