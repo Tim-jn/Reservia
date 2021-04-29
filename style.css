@@ -549,23 +549,28 @@ h1 {
     .populaires {
        padding: 0em 1.25em 1.25em 1.25em;
        border-radius: 0;
+       min-width: 335px;
     }
 
     .hebergements {
         background-color: white;
         height: 100%;
-        width: 335px;
+        width: fit-content;
+        padding-left: 0;
+        margin: 0 1.25em 0 1.25em;
     }
 
     .conteneur {
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
+        flex-direction: row;
     }
 
     .conteneur_img {
         width: 300px;
         height: 200px;
         padding-left: 0;
+        margin-right: 0;
     }
 
     .conteneur_img_aside {
