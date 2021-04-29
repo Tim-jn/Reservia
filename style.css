@@ -469,7 +469,8 @@ h1 {
 
     .navtop {
         padding: 1em 1em 1em 1em;
-        width: 50%;        
+        width: 50%;  
+        border-bottom: 3px #f2f2f2 solid;
     }
 
     .navtop_all {
@@ -481,7 +482,6 @@ h1 {
     .navtop_button :hover {
         color: #106ffc;
         border-bottom: 3px #106ffc solid;
-        border-top: 0px white solid;
     }
 
     .navtop_button {
