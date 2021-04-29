@@ -569,8 +569,24 @@ h1 {
     }
 
     .conteneur_img_aside {
-        width: 325px;
+        width: 100%;
         height: 145px;
+        max-width: fit-content;
+    }
+
+    .hotel_image_aside {
+        min-height: 100%;
+        width: 50%;
+        min-width: 37%;
+        max-width: 50%;
+    }
+    
+    .conteneur_text_aside {
+        width: 50%;
+    }
+        
+    .content_aside {
+        width: 100%;
     }
 
     /* section hebergements */
@@ -583,12 +599,25 @@ h1 {
         height: 100%;
     }
 
+    .activites_solo {
+        margin-top: 20px;
+    }
+
     /* section activités */
     /*------------------------------------------------------------------------------------------------------------------------------*/
     /* footer */
 
     .footer_bloc {
-        flex-direction: column;
+        height: 100%;
+    }
+
+    .footer_bloc {
+        flex-wrap: wrap;
+    }
+
+    .footer_elem {
+        width: 100%;
+        padding-bottom: 1em;
     }
 }
 
