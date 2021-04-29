@@ -767,13 +767,51 @@ h1 {
         padding-left: 0;
     }
 
-   
-
     /* section hebergements */
     /*------------------------------------------------------------------------------------------------------------------------------*/
     /* section activités */
 
+    #activites {
+        margin: 3.4em 1.25em 3.4em 1.25em;
+    }   
+    
+    .conteneur_wo_h1 {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: baseline;
+    }
 
+    .activites_solo {
+        width: 30%;
+        height: 190px;
+        margin-right: 1.25em;
+        margin-top: 1.25em;
+    }
+
+    .activites_img {
+        height: 135px;
+    }
+
+    .activites_duo {
+        flex-direction: row;
+        gap: 0;
+        width: 60%;
+    }
+
+    .activites_duo_1, .activites_duo_2, .activites_duo_3, .activites_duo_4 {
+        width: 100%;
+        height: 190px;
+    }
+
+    .activites_duo_1, .activites_duo_3 {
+        margin-right: 1.25em;
+    }
+
+    .activites_img_1, .activites_img_2 img, .activites_img_3, .activites_img_4 {
+        height: 135px;
+    }
 
     /* section activités */
     /*------------------------------------------------------------------------------------------------------------------------------*/
