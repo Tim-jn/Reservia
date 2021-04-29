@@ -598,14 +598,40 @@ h1 {
     /*------------------------------------------------------------------------------------------------------------------------------*/
     /* section activités */
 
+    #activites {
+        margin: 2.4em 1.25em 2.4em 1.25em;
+    }
+
     .conteneur_wo_h1 {
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
     }
 
+    .activites_img {
+        height: 135px;
+    }
+
     .activites_solo {
-        margin-top: 20px;
+        width: 100%;
+        height: 190px;
+        margin-top: 2em;
+    }
+
+    .activites_duo {
+        flex-direction: row;
+        width: 100%;
+        height: 190px; 
+        margin-top: 2em;
+    }
+
+    .activites_duo_1, .activites_duo_2, .activites_duo_3, .activites_duo_4 {
+        height: 190px;
+        width: 50%;
+    }
+
+    .activites_img_1, .activites_img_2 img, .activites_img_3, .activites_img_4 {
+        height: 135px;
     }
 
     /* section activités */
