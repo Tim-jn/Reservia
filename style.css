@@ -642,15 +642,13 @@ h1 {
 
     .footer_bloc {
         height: 100%;
-    }
-
-    .footer_bloc {
         flex-wrap: wrap;
+        padding: 0;
     }
 
     .footer_elem {
         width: 100%;
-        padding-bottom: 1em;
+        padding: 1.25em;
     }
 }
 
