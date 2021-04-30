@@ -546,7 +546,6 @@ h1 {
     .populaires {
        padding: 0em 1.25em 2em 1.25em;
        border-radius: 0;
-       min-width: 335px;
     }
 
     .hebergements {
@@ -564,7 +563,8 @@ h1 {
     }
 
     .conteneur_img {
-        width: 300px;
+        width: 100%;
+        max-width: 300px;
         height: 200px;
         padding-left: 0;
         margin-right: 0;
