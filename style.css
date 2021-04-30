@@ -827,10 +827,10 @@ h1 {
     }
 }
 
-/* Desktop */
-@media (min-width: 992px) {
+/* Small Desktop */
+@media (min-width: 992px) and (max-width: 1418px) {
     
-      /* header */
+    /* header */
 
     .search_button i {
             display: none;
@@ -854,18 +854,7 @@ h1 {
     #central_section {
         display: flex;
         flex-direction: column-reverse;
-    }
-
-    #central_section {
-        display: flex;
-        flex-direction: column-reverse;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .populaires {
-       padding: 0em 0.5em 2em 1.25em;
-       border-radius: 0;
+        gap: 40px;
     }
 
     .content_aside {
@@ -891,6 +880,28 @@ h1 {
         width: 70%;
     }
 
+    .hebergements {
+        width: 100%;
+        margin-right: 0;
+        padding-left: 0;
+    }
+
+    .hebergements h2 {
+        padding-left: 1.5em;
+    }
+
+    .more {
+        padding-left: 1.7em;
+    }
+
+    .conteneur {
+        justify-content: center;
+        padding-left: 1.7em;
+    }
+
+    .conteneur_img {
+        width: 28%;
+    }
     /* section hebergements */
     /*------------------------------------------------------------------------------------------------------------------------------*/
     /* section activités */
@@ -901,4 +912,20 @@ h1 {
     /*------------------------------------------------------------------------------------------------------------------------------*/
     /* footer */
 
+}
+
+    /* Large Desktop */
+@media (min-width: 1419px) {
+    /* header */
+
+    .search_button i {
+        display: none;
+    }
+
+    .navtop_button a:hover {
+        color: #106ffc;
+        border-top: 3px #106ffc solid;
+    }
+
+    /* header */
 }
