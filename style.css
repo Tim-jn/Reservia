@@ -720,17 +720,16 @@ h1 {
     }
 
     .populaires {
-       padding: 0em 0.5em 2em 1.25em;
+       padding: 0em 1.25em 2em 1.25em;
        border-radius: 0;
     }
 
     .content_aside {
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
     }
 
     .conteneur_img_aside {
-        width: 90%;
+        width: auto;
         height: 145px;
         max-width: 100%;
         max-height: 100%;
@@ -738,13 +737,13 @@ h1 {
 
     .hotel_image_aside {
         min-height: 100%;
-        width: 33%;
-        min-width: 33%;
-        max-width: 33%;
+        width: 45%;
+        min-width: 45%;
+        max-width: 45%;
     }
     
     .conteneur_text_aside {
-        width: 70%;
+        width: 55%;
     }
 
     .hebergements {
@@ -852,7 +851,45 @@ h1 {
     /*------------------------------------------------------------------------------------------------------------------------------*/
     /* section hebergements */
 
+    #central_section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
+    #central_section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .populaires {
+       padding: 0em 0.5em 2em 1.25em;
+       border-radius: 0;
+    }
+
+    .content_aside {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .conteneur_img_aside {
+        width: 90%;
+        height: 145px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .hotel_image_aside {
+        min-height: 100%;
+        width: 33%;
+        min-width: 33%;
+        max-width: 33%;
+    }
+    
+    .conteneur_text_aside {
+        width: 70%;
+    }
 
     /* section hebergements */
     /*------------------------------------------------------------------------------------------------------------------------------*/
