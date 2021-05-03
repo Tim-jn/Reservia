@@ -499,7 +499,7 @@ h1 {
         order: 3;
     }
 
-    .navtop_button :hover {
+    .navtop_button :active {
         color: #106ffc;
         border-bottom: 3px #106ffc solid;
     }
@@ -686,7 +686,7 @@ h1 {
             display: none;
     }
 
-    .navtop_button :hover {
+    .navtop_button :active {
         color: #106ffc;
         border-top: 3px #106ffc solid;
     }
