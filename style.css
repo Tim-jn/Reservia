@@ -178,7 +178,7 @@ h1 {
 /*------------------------------------------------------------------------------------------------------------------------------*/
 /* section hebergements */
 
-#central_section { 
+#main { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -186,7 +186,7 @@ h1 {
     margin-right: 3.2em;
 }
 
-#central_section h2 {
+#main h2 {
     font-size: 1.5em;
     padding-top: 1.7em;
 }
@@ -558,7 +558,7 @@ h1 {
     /*------------------------------------------------------------------------------------------------------------------------------*/
     /* section hebergements */
 
-    #central_section {
+    #main {
         display: flex;
         flex-direction: column-reverse;
         margin-left: 0;
@@ -731,7 +731,7 @@ h1 {
     /*------------------------------------------------------------------------------------------------------------------------------*/
     /* section hebergements */
 
-    #central_section {
+    #main {
         display: flex;
         flex-direction: column-reverse;
         margin-left: 0;
@@ -864,7 +864,7 @@ h1 {
     /*-----------------------------------------------------------------------------------------------------------------------------*/
     /* section hebergements */
 
-    #central_section {
+    #main {
         display: flex;
         flex-direction: column-reverse;
         gap: 40px;
