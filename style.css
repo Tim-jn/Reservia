@@ -59,7 +59,7 @@ a, a:link {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
@@ -449,10 +449,32 @@ h1 {
 /*------------------------------------------------------------------------------------------------------------------------------*/
 /*media queries*/
 
+/* Small mobile */ 
+
+@media all and (max-width: 375px) {
+
+    .conteneur_img {
+        margin: 0em 0em 1.7em 0em;
+        width: 100%;
+        max-width: 35px;
+        min-width: 100%;
+    }
+
+    .hotel_image_aside {
+        width: 20%!important;
+    }
+
+    .conteneur_text_aside h3 {
+        font-size: 1em;
+    }
+
+    .conteneur_text_aside p {
+        font-size: 0.9em;
+    }
+}
+
 /* Mobile */
 @media all and (max-width: 767.98px) {
-
-    /* header */
 
     .logo {
         margin-left: 1.25em;
@@ -553,7 +575,7 @@ h1 {
         height: 100%;
         width: fit-content;
         padding-left: 0;
-        margin: 0 1.25em 0 1.25em;
+        margin: 0 1.5em 0 1.5em;
     }
 
     .conteneur {
@@ -567,7 +589,6 @@ h1 {
         max-width: 300px;
         height: 200px;
         padding-left: 0;
-        margin-right: 0;
     }
 
     .conteneur_img_aside {
@@ -909,6 +930,7 @@ h1 {
 
     /* Large Desktop */
 @media (min-width: 1419px) {
+
     /* header */
 
     .search_button i {
