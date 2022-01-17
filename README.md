@@ -1,5 +1,8 @@
 # Reservia
-Second project of the Front-End developer course of OpenClassrooms. / Deuxième projet du parcours Développeur Front-End d'OpenClassrooms.
+
+## Intitulé du cours 
+
+Transformez une maquette en site web avec HTML & CSS
 
 ## [Live demo](https://timjn-reservia.netlify.app/)
 
