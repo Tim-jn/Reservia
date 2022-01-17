@@ -1,6 +1,6 @@
 # Reservia
 
-## Intitulé du cours 
+## Intitulé du projet 
 
 Transformez une maquette en site web avec HTML & CSS
 
